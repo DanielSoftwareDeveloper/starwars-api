@@ -65,6 +65,10 @@ function Starships() {
           <StarshipCard key={ship.model} ship={ship} />
         ))}
       </div>
+
+      <footer className="text-center text-gray-400 mt-8">
+        Made with Vite (React.js) and Tailwind CSS by Daniel Reyes
+      </footer>
     </div>
   );
 }
